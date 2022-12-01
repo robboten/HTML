@@ -113,11 +113,12 @@ ul.header-nav-links, ul.page-main-footer-links{
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 .header-nav-links li, .page-main-footer-links  li
  {
-    display: inline;
+    display: flex;
 }
 
 .header-nav-links li a {
@@ -144,6 +145,10 @@ section h2 {
     margin: 0 auto;
     padding: 2rem 2rem;
     max-width: 960px;
+}
+
+.page-main-header img{
+    width: 100%;
 }
 
 .page-main section,
