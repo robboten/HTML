@@ -1,0 +1,225 @@
+/*
+ Theme Name: rob FS Theme
+ Description: Övning 7 - CSS 
+ Author: Robert Hedblad
+ Author URL:  https://github.com/robboten/
+ Tags: Personal , Övning, LexNet
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+summary {
+    display: block;
+}
+
+body {
+    background-color: rgba(243, 244, 246, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(1, 2, 46, 0.936);
+}
+
+.header-logo,
+.footer-root {
+    background-color: rgba(1, 2, 46, 0.936);
+    color: rgba(238, 231, 204, 0.99);
+}
+
+.header-logo h2{
+    display: flex;
+}
+.header-inner,
+.footer-inner {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0.7rem 2rem;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    padding: 0 0 1.25rem 0; 
+}
+
+.datetime {
+    text-align: center;
+    font-style: italic;
+}
+.page-main {
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    max-width: 960px;
+}
+
+
+section {
+    display: block;
+}
+.clear {
+     clear: both;
+     display: inline-block;
+}
+.page-main section,
+.page-main-footer {
+    padding: 1em 2em 2em;
+    background-color: rgba(255, 255, 255, 0.59);
+    margin: 2em 0;
+
+}
+
+section h2 {
+    border-bottom: 2px solid rgba(223, 224, 226, 1);
+}
+
+.page-main h2 {
+    text-align: center;
+    padding: 0 0 0.4em 0;
+    color: rgba(37, 37, 122, 0.936);
+    margin-bottom: 0.8em;
+}
+
+
+.page-main h3 {
+    padding: 0.6em 0 0.1em 0;
+}
+
+.page-main-links {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.float-to-top{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    background-color:  rgba(37, 37, 122, 1);
+  width: 50px;
+    height:50px;
+    text-align: center;
+    line-height: 3;
+    color: rgba(238, 231, 204, 0.99);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.page-main-links li, .header-nav-links li {
+    display: inline;
+    padding-left: 2em;
+}
+
+ul.header-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-links li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgba(243, 244, 246, 1);
+}
+a {
+    color: #E50914;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52pt;
+}
+
+.page-main-header h2 {
+    text-align: center;
+}
+
+
+.page-main-facts {
+    width: 100%;
+}
+
+.page-main-facts .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.page-main-facts .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0 2em 1em;
+}
+
+.page-main-gallery{
+    background-color:  rgba(1, 2, 26,1);
+    padding-bottom: 8px;
+}
+
+.section p{
+    text-align: justify;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery-column{
+flex:50%;
+max-width: 50%;
+padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+iframe {
+    width: 100%;
+    height: calc(896px/1.78);
+}
+
+.footer-inner {
+    text-align: center;
+    font-size: x-small;
+}
+
+.small-right{
+    float:right;
+    object-fit: cover;
+    object-position: 50% 0;
+    margin-left: 2.25em;
+}
