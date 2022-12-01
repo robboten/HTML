@@ -56,7 +56,7 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 52pt;
+    font-size: 4.2rem;
 }
 
 
@@ -79,7 +79,7 @@ iframe {
     float: right;
     object-fit: cover;
     object-position: 50% 0;
-    margin-left: 2.25em;
+    margin: 0 0 0.7rem 2.25rem;
 }
 
 
@@ -153,20 +153,20 @@ section h2 {
 
 .page-main section,
 .page-main-footer {
-    padding: 1em 2em 2em;
+    padding: 1rem 2rem 2rem;
     background-color: rgba(255, 255, 255, 0.59);
-    margin: 2em 0;
+    margin: 2rem 0;
 }
 
 .page-main h2 {
     text-align: center;
-    padding: 0 0 0.4em 0;
+    padding: 0 0 0.4rem 0;
     color: rgba(37, 37, 122, 0.936);
-    margin-bottom: 0.8em;
+    margin-bottom: 0.8rem;
 }
 
 .page-main h3 {
-    padding: 0.6em 0 0.1em 0;
+    padding: 0.6rem 0 0.1rem 0;
 }
 
 
@@ -187,7 +187,7 @@ section h2 {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding: 0 2em 1em;
+    padding: 0 2rem 1rem;
 }
 
 
